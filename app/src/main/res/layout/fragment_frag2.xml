@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/weather2"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Frag2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="46dp"
+        android:src="@drawable/weather_logo"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_gravity="center"
+        android:textSize="80dp" />
+    <TextView
+        android:id="@+id/feelsLike"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="40dp"
+
+        />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/btnGet2"
+        android:layout_width="148dp"
+        android:layout_marginLeft="110dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="20dip"
+        android:alpha="0.70"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Check 7 days"
+        android:textColor="@android:color/white"
+        android:textSize="12dp" />
+
+
+</LinearLayout>
